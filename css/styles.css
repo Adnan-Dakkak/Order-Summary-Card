@@ -1,0 +1,118 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: hsl(225, 100%, 94%);
+
+}
+
+
+
+
+.card {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 360px;
+  height: 580px;
+  border-width: 0;
+  border-radius: 20px;
+  background-color: white;
+}
+
+@media (max-width: 375px) {
+  .card{
+    width: 330px;
+    height: 560px;
+  }
+}
+
+
+.card-image {
+  width: 100%;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+}
+
+
+h1, .title-p {
+  text-align: center;
+}
+
+h1 {
+  margin-top: 20px;
+  font-size: 30px;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+.title-p {
+  width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+  color: grey;
+  font-size: 14.5px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+
+.plan {
+  position: relative;
+  width: 300px;
+  height: 90px;
+  border-radius: 15px;
+  margin: 5px auto 40px auto;
+  background-color: hsl(225, 100%, 98%);
+}
+
+.music-icon {
+  float: left;
+  margin-right: 10px;
+}
+
+.planBody {
+  padding-top: 21px;
+  padding-left: 15px;
+}
+
+h2 {
+  font-size: 16px;
+  margin-top: 4px;
+  margin-bottom: 2px;
+  font-weight: bold;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+.price-p {
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.changePlan {
+  position: absolute;
+  right: 15px;
+  top: 34px;
+  color: hsl(245, 75%, 52%);
+}
+
+
+
+
+.btn-primary, .btn-light {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn-primary {
+  background-color: hsl(245, 75%, 52%);
+  border-color: hsl(245, 75%, 52%);
+  margin-bottom: 8px;
+  height: 45px;
+}
